@@ -444,3 +444,5 @@ export default class Utils {
         return Math.min(10000000, Math.ceil(buy ? this.round5(cost) : cost * 0.95 + (mk ? 0.05 * 750 : 0)))
     }
 }
+
+
